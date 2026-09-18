@@ -1,0 +1,40 @@
+name: OX
+meaning: Type eXperience
+status: provisional
+note: moved from TX because TX became Traveler X
+
+subject: type
+handles:
+  - object
+  - verb
+  - agent
+  - workflow
+  - relation
+  - interface
+actor: type_scholar
+
+cycle:
+  - archetype
+  - type
+  - goal_type
+  - definition
+  - spawn
+  - instance
+  - evaluation
+  - update
+
+outputs:
+  - type
+  - goal_type
+  - type_definition
+  - instance
+  - evaluation
+
+relations:
+  mx: observe
+  rx: dig
+  aw: spawn_agent
+  ax: run_agent
+  wx: write
+  tx: traveler_crosses_borders
+  xx: subject_experience
